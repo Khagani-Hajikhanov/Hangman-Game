@@ -55,10 +55,16 @@ body{
     text-shadow: 3px 3px 1px;
     
 }
+.marka{
+    margin-top: 100px;
+    text-align: center;
+    font-family: type;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
 
 .container{
     display: flex;
-    margin-top: 100px;
     width: 100%;
     justify-content: center;
     align-items: flex-start;
@@ -118,8 +124,14 @@ img{
 }
 
 .win1, .lose1{
-    
     width: 50%;
+}
+
+.win1{
+    color: greenyellow;
+}
+.lose1{
+    color: rgb(248, 38, 38);
 }
 
 .mediacont{
